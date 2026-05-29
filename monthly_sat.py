@@ -119,7 +119,7 @@ encoding = {
     }
 }
 
-#combined_interp.to_netcdf(combined_outfile,format="NETCDF4",encoding=encoding)
+combined_interp.to_netcdf(combined_outfile,format="NETCDF4",encoding=encoding)
 
 # =============================================================================
 # SEASONAL CLIMATOLOGY 
